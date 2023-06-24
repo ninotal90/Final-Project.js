@@ -1,0 +1,16 @@
+{
+  "name": "final-project-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "@splidejs/splide-extension-auto-scroll": "^0.5.3",
+    "js-cookie": "^3.0.5"
+  }
+}

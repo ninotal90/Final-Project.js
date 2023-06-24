@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Delicious Handrawn';
+    src: url('DeliciousHandrawn-Regular.eot');
+    src: url('DeliciousHandrawn-Regular.eot?#iefix') format('embedded-opentype'),
+        url('DeliciousHandrawn-Regular.woff2') format('woff2'),
+        url('DeliciousHandrawn-Regular.woff') format('woff'),
+        url('DeliciousHandrawn-Regular.svg#DeliciousHandrawn-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

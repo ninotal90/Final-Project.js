@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/icon-book.png" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <link rel="stylesheet" href="styles/font.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/@splidejs/splide/dist/css/splide-core.min.css"
+    />
+    <title>BOOKS</title>
+  </head>
+  <body>
+    <header class="header-wraper" id="home">
+      <div class="wraper">
+        <div class="main-div">
+          <a href="#" class="logo"> <i class="fa-solid fa-book"></i>BOOKS</a>
+          <nav class="navigation" id="navElement">
+            <ul class="nav-ul-item">
+              <li class="nav-li"><a href="#home">HOME</a></li>
+              <li class="nav-li"><a href="#about">ABOUT</a></li>
+              <li class="nav-li"><a href="#news">NEWS</a></li>
+              <li class="nav-li"><a href="#sales">SALES</a></li>
+              <li class="nav-li"><a href="#footer">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="burger" id="burgerBar">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </div>
+      </div>
+
+      <section>
+        <div class="header-text">
+          <div class="gif">
+            <img src="images/bookGif.gif" alt="gif" />
+          </div>
+          <div class="header-div-texts">
+            <h5>-----Welcome To Book</h5>
+            <p class="header-p">Books are uniquely portable magic</p>
+            <div class="order">Order Today</div>
+          </div>
+          <div class="img-book">
+            <img src="images/books.jpg" alt="book" class="img1" />
+          </div>
+        </div>
+      </section>
+    </header>
+    <section class="cookie-section">
+      <div class="cookie-div">
+        <p class="cookie-p">
+          We use cookies to enable the best possible experience on our site and
+          to optimize the content for you. If you continue surfing you agree.
+          <span
+            ><a
+              href="https://www.termsfeed.com/legal/cookies-policy/"
+              target="_blank"
+              class="learn-more"
+              >Learn more</a
+            ></span
+          >
+        </p>
+      </div>
+      <div class="btn-div">
+        <button class="button">ACCEPT</button>
+        <button class="button1">CENCEL</button>
+      </div>
+    </section>
+    <i class="fa-solid fa-circle-chevron-up" id="top"></i>
+    <section class="filter-section" id="about">
+      <!-- filter with async  -->
+      <section class="filter-sectio">
+        <div class="conteiner-filter">
+          <div class="search-block">
+            <label for="search-field" class="search-field"
+              >Famous People Quotes</label
+            >
+            <input type="search" id="search-field" class="search" />
+            <button class="btn-search">Search</button>
+          </div>
+          <ul id="results" class="ul-item-list"></ul>
+        </div>
+      </section>
+    </section>
+    <!-- J s o n  G e t  M e t h o d -->
+    <section class="js-section">
+      <div id="wraper-div" class="wraper-div"></div>
+    </section>
+    <!-- A C C O R D I O N  S E C T I O N -->
+    <section class="accordion-section" id="news">
+      <div class="accordion-container">
+        <h2 class="h2-description">The New York Times Best Sellers</h2>
+        <div class="acordion-item">
+          <h2 class="acc-title">1.IT ENDS WITH US by Colleen Hoover</h2>
+          <p class="p-accordion">
+            A battered wife raised in a violent home attempts to halt the cycle
+            of abuse.
+          </p>
+        </div>
+        <div class="acordion-item">
+          <h2 class="acc-title">2.IT STARTS WITH US by Colleen Hoover</h2>
+          <p class="p-accordion">
+            In the sequel to “It Ends With Us,” Lily deals with her jealous
+            ex-husband as she reconnects with her first boyfriend.
+          </p>
+        </div>
+        <div class="acordion-item">
+          <h2 class="acc-title">3.HAPPY PLACE by Emily Henry</h2>
+          <p class="p-accordion">
+            A former couple pretend to be together for the sake of their friends
+            during their annual getaway in Maine.
+          </p>
+        </div>
+        <div class="acordion-item">
+          <h2 class="acc-title">4.THE COVENANT OF WATER by Abraham Verghese</h2>
+          <p class="p-accordion">
+            Three generations of a family living on South India’s Malabar Coast
+            suffer the loss of a family member by drowning.
+          </p>
+        </div>
+        <div class="acordion-item">
+          <h2 class="acc-title">5.IDENTITY / by Nora Roberts</h2>
+          <p class="p-accordion">
+            After her roommate is killed by a con artist, a former Army brat
+            builds a new life at her mother's home in Vermont.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="slide-section" id="sales">
+      <h2 class="sales">30% Discount On Books</h2>
+      <div class="splide">
+        <div class="splide__track">
+          <div class="splide__list">
+            <div class="splide__slide">
+              <div class="img-box">
+                <img src="images/book1.jpg" alt="image" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img-box">
+                <img src="images//book2.jpg" alt="image" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img-box">
+                <img src="images/book3.webp" alt="image" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img-box">
+                <img src="images/book4.jpg" alt="image" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img-box">
+                <img src="images/book5.jpg" alt="image" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img-box">
+                <img src="images/book6.webp" alt="image" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img-box">
+                <img src="images/book7.jpg" alt="image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-wraper" id="footer">
+      <h2 class="contact">Contact Us</h2>
+      <section class="footer-section">
+        <div class="logo-icon">
+          <a href="#" class="logo"> <i class="fa-solid fa-book"></i>BOOKS</a>
+          <div class="footer-icon">
+            <div class="icon-box">
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="icon-box">
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="icon-box">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="icon-box">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+          </div>
+        </div>
+        <div class="contact-block">
+          <h3>Keep in Touch</h3>
+          <ul>
+            <li>
+              <span class="span-color">Address:</span>
+              <a
+                href="https://www.google.com/maps/search/24A+Kingston+St,+Las+Vegas+NC+28202,+USA./@34.7066567,-106.0099694,5z?entry=ttu"
+                target="_blank"
+                class="a-teg"
+              >
+                24A Kingston St, Las Vegas NC 28202, USA.
+              </a>
+            </li>
+            <li>
+              <span class="span-color">ტელ:</span>
+              <a href="tel:(+22) 123 - 4567 - 900" class="a-teg"
+                >(+22) 123 - 4567 - 900</a
+              >
+            </li>
+            <li>
+              <span class="span-color"> ელ.ფოსტა: </span>
+              <a
+                href="mailto:mail@gmail.com ?cc=name2@rapidtables.com&bcc=name3@rapidtables.com &subject=The%20subject%20of%20the%20email&body=The%20body%20of%20the%20email"
+                class="a-teg"
+                >mail@gmail.com
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="form-section">
+          <form action="#" id="registration-form" method="post">
+            <div class="em-us">
+              <div class="form-flex">
+                <label for="username-field">Username</label>
+                <input type="text" name="username" id="username-field" />
+                <p class="error-text" id="error-username"></p>
+              </div>
+              <div class="form-flex">
+                <label for="password-field">Password</label>
+                <input type="password" name="password" id="password-field" />
+                <i id="toggleIcon" class="fa-solid fa-eye"></i>
+                <p class="error-text" id="error-password"></p>
+              </div>
+              <div class="form-flex">
+                <label for="password-field2">Password</label>
+                <input type="password" name="password2" id="password-field2" />
+                <p class="error-text" id="error-password2"></p>
+              </div>
+              <div class="form-flex">
+                <label for="emailField">Your Email</label>
+                <input type="email" id="emailField" name="myemail" />
+                <p class="error-email"></p>
+              </div>
+
+              <div>
+                <input type="radio" name="age" id="age1" />
+                <label for="age1">18-25</label>
+                <input type="radio" name="age" id="age2" />
+                <label for="age1">26-35</label>
+                <input type="radio" name="age" id="age3" />
+                <label for="age1">36-45</label>
+                <p class="error-text" id="error-age"></p>
+              </div>
+              <div>
+                <input type="checkbox" name="agree" id="agree" />
+                <label for="agree">I Agree Terms And Conditions </label>
+                <p class="error-text" id="error-agree"></p>
+              </div>
+              <div></div>
+              <input type="submit" class="validateBtn" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="line-section">
+        <div class="line-div"></div>
+      </section>
+      <div class="copy">
+        <h2>© Start, 2023. All rights reserved.</h2>
+      </div>
+    </footer>
+    <script src="node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
+    <script src="node_modules/@splidejs/splide-extension-auto-scroll/dist/js/splide-extension-auto-scroll.min.js"></script>
+    <script>
+      const splide = new Splide(".splide", {
+        type: "loop",
+        drag: "free",
+        arrows: false,
+        pagination: false,
+        focus: "center",
+        autoScroll: {
+          speed: 1.5,
+        },
+        perPage: 3,
+        breakpoints: {
+          930: {
+            perPage: 2,
+            gap: ".7rem",
+          },
+          550: {
+            perPage: 1,
+            gap: ".7rem",
+          },
+        },
+      });
+
+      splide.mount(window.splide.Extensions);
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
